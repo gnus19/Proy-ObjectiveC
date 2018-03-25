@@ -11,7 +11,7 @@ Para si ejecucion primero se debe descargar las dependencias:
 `sudo apt-get install gnustep gnustep-devel gobjc`
 
 Luego para su compilacion:
-``gcc \`gnustep-config --objc-flags\` \`gnustep-config --base-libs\` main.m cuerpo.m -o main -lbsd``
+gcc \`gnustep-config --objc-flags\` \`gnustep-config --base-libs\` main.m cuerpo.m -o main -lbsd
 
 Para su ejecucion:
 `./main`
