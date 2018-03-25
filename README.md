@@ -9,7 +9,7 @@ Tres codigos: cabezeras.h donde estan las declaraciones de las clases, cuerpo.m 
 Ensayo sobre dicho lenguaje hablando sobre sus caracteristicas, limitaciones, usos y proyectos realizados en Objective-C.
 
 Para poder ejecutar el proyecto, primero se debe compilar:
-gcc ``gnustep-config --objc-flags`` ``gnustep-config --base-libs`` main.m cuerpo.m -o main -lbsd
+gcc \`gnustep-config --objc-flags\` \`gnustep-config --base-libs\` main.m cuerpo.m -o main -lbsd
 
 Para su ejecucion:
 ./main
