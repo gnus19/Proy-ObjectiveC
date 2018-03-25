@@ -8,6 +8,7 @@ Enunciado del proyecto propuesto en Objective-C.
 Tres codigos: cabezeras.h donde estan las declaraciones de las clases, cuerpo.m que contiene la implementacion de las clases y maim.m con el programa principal.
 
 Para si ejecucion primero se debe descargar las dependencias:
+`sudo apt-get install  libbsd-dev`
 `sudo apt-get install gnustep gnustep-devel gobjc`
 
 Luego para su compilacion:
