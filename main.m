@@ -24,9 +24,9 @@ int main( )
    //Se piden la cantidad de objetos y ataques
    printf("Ingrese la cantidad de objetos\n");  
    estado = scanf("%d", &cantidadSoldados);
-	while(estado!=1 || cantidadSoldados<0){
+	while(estado!=1 || cantidadSoldados<1){
 		while((temporal=getchar()) != EOF && temporal != '\n');
-		if(cantidadSoldados<=1){
+		if(cantidadSoldados<1){
 			printf("Ingrese la cantidad de objetos (Debe ser un entero positivo):\n");		
 		}
 		estado = scanf("%d", &cantidadSoldados);
@@ -35,9 +35,9 @@ int main( )
 	printf("Ingrese la cantidad de ataques\n");  
 	
 	estado = scanf("%d", &cantidadAtaques);
-	while(estado!=1 || cantidadAtaques<0){
+	while(estado!=1 || cantidadAtaques<1){
 		while((temporal=getchar()) != EOF && temporal != '\n');
-		if(cantidadAtaques<=1){
+		if(cantidadAtaques<1){
 			printf("Ingrese la cantidad de ataques (Debe ser un entero positivo):\n");		
 		}
 		estado = scanf("%d", &cantidadAtaques);
