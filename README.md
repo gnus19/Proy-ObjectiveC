@@ -16,3 +16,5 @@ gcc main.m cuerpo.m -o main \`gnustep-config --objc-flags\` \`gnustep-config --b
 
 Para su ejecucion:
 `./main`
+
+Advertencia: Colocar un numero considerado de objetos, ya que puede afectar a la memoria (no mas de miles)
